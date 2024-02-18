@@ -58,3 +58,29 @@ div.header_hero_pic {
   border-radius: 5px;
   margin-top: 10px;
 }
+/*edit content*/
+/*edit content part 1*/
+/*edit content part 1 text*/
+.content_information_part_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  padding: 30px;
+}
+/*edit content illustration part 1*/
+.content_illustration {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.illustration_text {
+  width: 150px;
+}
+
+
