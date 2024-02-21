@@ -129,6 +129,7 @@ div.thor {
   justify-content: space-between;
   width: 750px;
   padding: 20px 45px;
+  border-radius: 5px;
 }
 .content_button {
   background-color: #3882F6;
