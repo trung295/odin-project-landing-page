@@ -1,3 +1,4 @@
+
 body {
   height: 100vh;
 }
@@ -7,6 +8,8 @@ body {
   background-color: #1F2937;
 }
 .header {
+  display: flex;
+  flex-direction: column;
   padding: 10px 300px 100px 300px;
 }
 /*flex the header_logo_link*/
@@ -41,6 +44,7 @@ div.header_hero_pic {
 /*edit header hero*/
 .header_hero {
   width: 400px;
+  flex-shrink: 0;
 }
 .main_text {
   font-size: 48px;
@@ -104,8 +108,11 @@ div.header_hero_pic {
   margin-bottom: 0;
   
 }
+.thor_quote {
+  display: flex;
+  flex-direction: column;
+}
 div.thor {
-  width: 740px;
   margin: 0;
   align-self: flex-end;
 }
@@ -114,12 +121,30 @@ div.thor {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
 }
 .small_container {
   background-color: #3882F6;
   display: flex;
   justify-content: space-between;
-  width: 800px;
+  width: 750px;
+  padding: 20px 45px;
+}
+.content_button {
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 15px;
+  border-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
